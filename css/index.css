@@ -1,0 +1,28 @@
+
+
+#pageGrid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridContainer {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px 20px;
+
+justify-content: center;
+
+}
+
+.gridcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 0;
+    width: 500px;
+    
+}
+
+
+
