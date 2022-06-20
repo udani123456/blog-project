@@ -18,6 +18,19 @@ align-items: center;
 
 }
 
+#navFlexContainer{
+    display: flex;
+    list-style-type: none;  
+    border: 1px solid black; 
+    
+}
+#navFlexContainer > *{
+    margin-right: 1em;
+   
+}
+
+
+
 .gridcard{
     display: flex;
     flex-direction: column;
