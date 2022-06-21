@@ -16,7 +16,7 @@
     box-shadow: 0px 0px 10px gray;
 }
 
-#gridContainer {
+#blogList {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 100px;
