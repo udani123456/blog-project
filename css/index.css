@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-
+*{
+    font-family: 'Roboto Slab', serif;
+}
 #pageGrid{
     display: grid;
     justify-content: center;
@@ -8,6 +11,8 @@
 
 #pageGrid > h1{
     text-align: center;
+    background-color: rgb(121,  200, 252);
+    box-shadow: 0px 0px 10px gray;
 }
 
 #gridContainer {
@@ -21,15 +26,23 @@ align-items: center;
 #navFlexContainer{
     display: flex;
     list-style-type: none;  
+    padding: 10px;
     border: 1px solid black; 
+    box-shadow: 0px 0px 10px gray;
+    
     
 }
-#navFlexContainer > *{
+
+.navElement{
     margin-right: 1em;
-   
+    
 }
 
-
+.navElement a{
+    text-decoration: none;
+    color: black;
+    
+}
 
 .gridcard{
     display: flex;
@@ -38,6 +51,10 @@ align-items: center;
     flex-basis: 0;
     width: 500px;
     height: 500px;
+    border: 1px solid gray;
+    margin-bottom: 1em;
+    padding: 10px;
+    box-shadow: 0px 0px 10px gray;
     
 }
 
@@ -51,6 +68,7 @@ align-items: center;
 .gridcard > p{
     text-align: center;
 }
+
 
 
 
