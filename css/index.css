@@ -1,50 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-*{
+* {
     font-family: 'Roboto Slab', serif;
 }
-#pageGrid{
+
+#pageGrid {
     display: grid;
     justify-content: center;
-    /* align-items: center; */
+
 }
 
-#pageGrid > h1{
+#pageGrid>h1 {
     text-align: center;
-    background-color: rgb(121,  200, 252);
+    background-color: rgb(121, 200, 252);
     box-shadow: 0px 0px 10px gray;
 }
 
 #gridContainer {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-column-gap: 100px;
-align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+    align-items: center;
 
 }
 
-#navFlexContainer{
+#navFlexContainer {
     display: flex;
-    list-style-type: none;  
+    list-style-type: none;
     padding: 10px;
-    border: 1px solid black; 
+    border: 1px solid black;
     box-shadow: 0px 0px 10px gray;
-    
-    
+
+
 }
 
-.navElement{
+.navElement {
     margin-right: 1em;
-    
+
 }
 
-.navElement a{
+.navElement a {
     text-decoration: none;
     color: black;
-    
+
 }
 
-.gridcard{
+.gridcard {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,20 +56,16 @@ align-items: center;
     margin-bottom: 1em;
     padding: 10px;
     box-shadow: 0px 0px 10px gray;
-    
+
 }
 
-.gridcard > img{
-    
+.gridcard>img {
+
     width: 100%;
     height: 100%;
-    
+
 }
 
-.gridcard > p{
+.gridcard>p {
     text-align: center;
 }
-
-
-
-
