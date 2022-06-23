@@ -60,39 +60,4 @@
 }
 
 
-#pageGrid>footer{
-
-}
-.fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 40px;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 50%;
-  }
-  
-
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-
-
   
