@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import "main.css";
 
 * {
     font-family: 'Roboto Slab', serif;
@@ -10,7 +11,7 @@
 
 }
 
-#pageGrid>h1 {
+#pageTitle {
     text-align: center;
     background-color: rgb(121, 200, 252);
     box-shadow: 0px 0px 10px gray;
@@ -69,3 +70,41 @@
 .gridcard>p {
     text-align: center;
 }
+
+
+#pageGrid>footer{
+
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+  
