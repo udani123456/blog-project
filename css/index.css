@@ -1,4 +1,3 @@
-
 @import "parent.css";
 
 
@@ -8,8 +7,6 @@
     justify-content: center;
 
 }
-
-
 
 #blogList {
     display: grid;
@@ -44,6 +41,3 @@
 .gridcard>p {
     text-align: center;
 }
-
-
-  

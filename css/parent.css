@@ -4,71 +4,71 @@
   font-family: 'Roboto Slab', serif;
 }
 
-footer{
-    display: flex;
-    background-color: rgb(121, 200, 252);
-    box-shadow: 0px 0px 10px gray;
-    padding: 10px;
-  }
+footer {
+  display: flex;
+  background-color: rgb(121, 200, 252);
+  box-shadow: 0px 0px 10px gray;
+  padding: 10px;
+}
 
-  footer span{
-    margin-left: auto;
+footer span {
+  margin-left: auto;
 
-  }
+}
 
-  #pageTitle {
-    text-align: center;
-    background-color: rgb(121, 200, 252);
-    box-shadow: 0px 0px 10px gray;
+#pageTitle {
+  text-align: center;
+  background-color: rgb(121, 200, 252);
+  box-shadow: 0px 0px 10px gray;
 }
 
 #navFlexContainer {
-    display: flex;
-    list-style-type: none;
-    padding: 10px;
-    border: 1px solid black;
-    box-shadow: 0px 0px 10px gray;
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px gray;
 
 }
 
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 40px;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 50%;
-  }
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 50%;
+}
 
-  .navElement {
-    margin-right: 1em;
+.navElement {
+  margin-right: 1em;
 
 }
 
 .navElement a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 
 }
-  
 
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
 
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+.fa:hover {
+  opacity: 0.7;
+}
 
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
