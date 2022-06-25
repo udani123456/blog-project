@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 @import "parent.css";
 
-* {
-    font-family: 'Roboto Slab', serif;
-}
+
 
 #pageGrid {
     display: grid;
@@ -21,18 +19,6 @@
 
 }
 
-
-
-.navElement {
-    margin-right: 1em;
-
-}
-
-.navElement a {
-    text-decoration: none;
-    color: black;
-
-}
 
 .gridcard {
     display: flex;
