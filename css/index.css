@@ -35,30 +35,48 @@
     text-align: center;
 }
 
-
-    #blogList {
-        display: grid;
-        grid-template-columns: 1fr;
-        column-gap: 1em;
-        row-gap: 0.5em;
-        
-    }
-@media (min-width:1070px) and (max-width:1624px){
-    #blogList{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 1em;
-    row-gap: 0.5em;
-    }
+.gridcard>h2>a{
+    text-decoration: none;
+  color: black;
 }
 
-@media(min-width:1625px){
+
 #blogList {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     column-gap: 1em;
     row-gap: 0.5em;
-    
 
 }
+@media(max-width:510px){
+    .gridcard{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    height: 290px;
+    border: 1px solid gray;
+    padding: 3px;
+    box-shadow: 0px 0px 10px gray;
+    }
+}
+
+@media (min-width:1070px) and (max-width:1624px) {
+    #blogList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1em;
+        row-gap: 0.5em;
+    }
+}
+
+@media(min-width:1625px) {
+    #blogList {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1em;
+        row-gap: 0.5em;
+
+
+    }
 }

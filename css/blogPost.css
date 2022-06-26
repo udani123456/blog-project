@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import "parent.css";
 
-#blogPost{
+#blogPost {
     margin-left: 10vw;
     margin-right: 10vw;
 }
 
 #blogPost>img {
-   max-width: 100%;
-   height: auto; 
+    max-width: 100%;
+    height: auto;
 }
