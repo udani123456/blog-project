@@ -2,7 +2,8 @@
 @import "parent.css";
 
 #blogPost{
-    margin: 3em;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 #blogPost>img {
