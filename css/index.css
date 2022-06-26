@@ -31,13 +31,25 @@
 
 }
 
-.gridcard>p {
+.cardText {
     text-align: center;
 }
+.cardText>a{
+    text-decoration: none;
+    color: black;
 
-.gridcard>h2>a{
+}
+.cardText:hover{
+    opacity: 50%;
+}
+
+.cardTitle>a{
     text-decoration: none;
   color: black;
+}
+
+.cardTitle:hover{
+    opacity: 50%;
 }
 
 
