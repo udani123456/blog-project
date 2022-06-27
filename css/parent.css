@@ -77,3 +77,9 @@ footer span {
   background: #125688;
   color: white;
 }
+
+figcaption {
+  margin: 3px;
+  text-align: center;
+  font-style: italic;
+}

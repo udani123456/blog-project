@@ -6,7 +6,7 @@
     margin-right: 10vw;
 }
 
-#blogPost>img {
+.blogImage {
     max-width: 100%;
     height: auto;
 }

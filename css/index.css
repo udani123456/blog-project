@@ -23,32 +23,41 @@
 
 }
 
-
-.gridcard>img {
+.cardImage {
 
     width: 100%;
-    height: 100%;
+    height: 90%;
+}
+figure{
+min-width: 0;
+min-height: 0;
+}
 
+figure>figcaption{
+    width: 100%;
+    height: 10%;
 }
 
 .cardText {
     text-align: center;
 }
-.cardText>a{
+
+.cardText>a {
     text-decoration: none;
     color: black;
 
 }
-.cardText:hover{
+
+.cardText:hover {
     opacity: 50%;
 }
 
-.cardTitle>a{
+.cardTitle>a {
     text-decoration: none;
-  color: black;
+    color: black;
 }
 
-.cardTitle:hover{
+.cardTitle:hover {
     opacity: 50%;
 }
 
@@ -60,16 +69,21 @@
     row-gap: 0.5em;
 
 }
-@media(max-width:510px){
-    .gridcard{
+
+@media(max-width:510px) {
+    .gridcard {
         display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 290px;
-    height: 290px;
-    border: 1px solid gray;
-    padding: 3px;
-    box-shadow: 0px 0px 10px gray;
+        flex-direction: column;
+        align-items: center;
+        width: 290px;
+        height: 290px;
+        border: 1px solid gray;
+        padding: 3px;
+        box-shadow: 0px 0px 10px gray;
+    }
+
+    .gridcard>p {
+        display: none;
     }
 }
 
